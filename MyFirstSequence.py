@@ -17,7 +17,7 @@ from labscript import (
     stop,
     wait,
 )
-from labscriptlib.JosiahApparatus.connection_table import ConnectionTable
+from labscriptlib.MyFirstApparatus.connection_table import ConnectionTable
 
 if __name__ == '__main__':
 

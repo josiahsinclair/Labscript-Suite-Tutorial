@@ -24,7 +24,7 @@ def ConnectionTable():
 
     PrawnBlaster(
         name="prawnblaster_0",
-        com_port="COM6",
+        com_port="COM6",  # Change this to the right COM port on your computer
         num_pseudoclocks=2,
     )
 
@@ -32,7 +32,7 @@ def ConnectionTable():
         name="ni_card_1",
         parent_device=prawnblaster_0.clocklines[0],
         clock_terminal="/Dev1/PFI0",
-        MAX_name="Dev1",
+        MAX_name="Dev1",  # Change this to the name in NI MAX on your computer
     )
 
     # Create the output/input channels on the above devices use the example1 conversion
